@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://spxexpressid.vercel.app/sitemap.xml

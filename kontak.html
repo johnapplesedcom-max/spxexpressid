@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak CS SPX Express Indonesia — Customer Service 24 Jam</title>
+  <meta name="description" content="Hubungi customer service resmi SPX Express Indonesia 24 jam via WhatsApp. Bantuan cek resi, lacak paket, dan kendala pengiriman SPX Express.">
+  <meta name="keywords" content="kontak spx express, customer service spx express, cs spx express, hubungi spx express, wa spx express">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://spxexpressid.vercel.app/kontak.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kontak CS SPX Express — Bantuan 24 Jam">
+  <meta property="og:description" content="Hubungi CS resmi SPX Express Indonesia 24 jam via WhatsApp.">
+  <meta property="og:url" content="https://spxexpressid.vercel.app/kontak.html">
+  <meta name="theme-color" content="#ee4d2d">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="logo">
+    <div class="logo-box">SPX</div>
+    <div>
+      <div class="logo-text">SPX Express</div>
+      <div class="logo-sub">Cek Resi & Tracking</div>
+    </div>
+  </a>
+  <nav class="nav-links">
+    <a href="index.html">Beranda</a>
+    <a href="cek-resi.html">Cek Resi</a>
+    <a href="layanan.html">Layanan</a>
+    <a href="tentang.html">Tentang</a>
+    <a href="kontak.html" class="active">Kontak</a>
+  </nav>
+  <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">☰</button>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-inner">
+    <button class="mobile-close" onclick="toggleMenu()">✕</button>
+    <a href="index.html">🏠 Beranda</a>
+    <a href="cek-resi.html">🔍 Cek Resi</a>
+    <a href="layanan.html">📦 Layanan</a>
+    <a href="tentang.html">ℹ️ Tentang</a>
+    <a href="kontak.html">📞 Kontak</a>
+  </div>
+</div>
+
+<section class="hero" style="padding-top:56px;">
+  <h1>Hubungi <span>CS Resmi SPX Express</span></h1>
+  <p>Customer service resmi SPX Express Indonesia siap membantu Anda 24 jam melalui WhatsApp.</p>
+</section>
+
+<section class="track-section">
+  <div class="form-card">
+    <h2>Formulir Kontak</h2>
+    <label for="nama">Nama Lengkap</label>
+    <input type="text" id="nama" placeholder="Nama Anda">
+    <label for="resi">Nomor Resi (opsional)</label>
+    <input type="text" id="resi" placeholder="Contoh: SPXID...">
+    <label for="pesan">Pesan</label>
+    <textarea id="pesan" rows="4" placeholder="Tuliskan kendala atau pertanyaan Anda"></textarea>
+    <button class="btn-main" style="max-width:100%;margin:0;" onclick="kirimKontak()">Kirim via WhatsApp</button>
+  </div>
+</section>
+
+<section class="content-section">
+  <h2>Pertanyaan yang Sering Diajukan</h2>
+  <div class="faq-item">
+    <h3>Bagaimana cara cek resi SPX Express?</h3>
+    <p>Buka halaman Cek Resi, masukkan nomor resi SPX Express Anda, lalu klik Lacak Paket untuk melihat status pengiriman.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Apakah customer service tersedia 24 jam?</h3>
+    <p>Ya, customer service resmi SPX Express Indonesia tersedia 24 jam melalui WhatsApp untuk membantu kendala pengiriman Anda.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Nomor resi tidak ditemukan, apa yang harus dilakukan?</h3>
+    <p>Pastikan nomor resi yang dimasukkan sudah benar. Jika masih bermasalah, hubungi customer service melalui tombol WhatsApp di halaman ini.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>SPX Express</h4>
+        <a href="index.html">Beranda</a>
+        <a href="cek-resi.html">Cek Resi</a>
+        <a href="layanan.html">Layanan</a>
+        <a href="tentang.html">Tentang</a>
+      </div>
+      <div class="footer-col">
+        <h4>Layanan</h4>
+        <a href="cek-resi.html">Tracking Paket</a>
+        <a href="kontak.html">Customer Service</a>
+        <a href="kontak.html">Bantuan 24 Jam</a>
+      </div>
+      <div class="footer-col">
+        <h4>Informasi</h4>
+        <a href="tentang.html">Tentang Kami</a>
+        <a href="kontak.html">Hubungi Kami</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 SPX Express Indonesia. Seluruh hak cipta dilindungi.</p>
+      <p class="footer-disclaimer">
+        Situs ini merupakan layanan customer service resmi SPX Express Indonesia.
+        Untuk informasi resmi kunjungi <a href="https://spx.co.id" target="_blank" rel="noopener">spx.co.id</a>.
+      </p>
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="wa-float wa-chat" data-msg="Halo saya butuh bantuan SPX Express" aria-label="Chat WhatsApp Resmi">
+  <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.004 0h-.008C7.174 0 0 7.176 0 16c0 3.5 1.128 6.744 3.046 9.378L1.054 31.29l6.12-1.958A15.9 15.9 0 0 0 16.004 32C24.826 32 32 24.822 32 16S24.826 0 16.004 0zm9.31 22.594c-.39 1.1-2.27 2.1-3.13 2.18-.86.08-1.66.36-5.6-1.16-4.74-1.86-7.72-6.7-7.96-7.02-.24-.32-1.9-2.54-1.9-4.84s1.2-3.44 1.62-3.9c.42-.46.92-.58 1.24-.58.32 0 .64 0 .92.02.3.02.7-.12 1.08.82.38.94 1.32 3.24 1.44 3.48.12.24.2.52.04.84-.16.32-.24.52-.48.8-.24.28-.5.62-.72.84-.24.24-.48.5-.2.98.28.48 1.26 2.08 2.7 3.36 1.86 1.66 3.42 2.16 3.9 2.4.48.24.76.2 1.04-.12.28-.32 1.2-1.4 1.52-1.88.32-.48.64-.4 1.08-.24.44.16 2.8 1.32 3.28 1.56.48.24.8.36.92.56.12.2.12 1.18-.28 2.28z"/>
+  </svg>
+</a>
+
+<script src="config.js"></script>
+<script>
+  document.querySelectorAll('.wa-chat').forEach(el => {
+    el.href = waLink(el.dataset.msg);
+    el.target = '_blank';
+    el.rel = 'noopener';
+  });
+
+  function kirimKontak() {
+    const nama = document.getElementById('nama').value.trim();
+    const resi = document.getElementById('resi').value.trim();
+    const pesan = document.getElementById('pesan').value.trim();
+    if (!nama || !pesan) { alert('Isi nama dan pesan terlebih dahulu'); return; }
+    let text = `Halo CS SPX Express,\n\nNama: ${nama}\n`;
+    if (resi) text += `No. Resi: ${resi}\n`;
+    text += `Pesan: ${pesan}`;
+    window.open(waLink(text), '_blank');
+  }
+
+  function toggleMenu() {
+    document.getElementById('mobileMenu').classList.toggle('open');
+  }
+</script>
+</body>
+</html>
