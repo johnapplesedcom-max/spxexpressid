@@ -1,0 +1,17 @@
+{
+  "name": "spxexpressid",
+  "version": "1.0.0",
+  "description": "SPX Express Indonesia - Customer service website for package tracking",
+  "private": true,
+  "scripts": {
+    "dev": "npx http-server -p 3000",
+    "build": "echo 'Static site - no build needed'",
+    "lint": "echo 'No linter configured'"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
