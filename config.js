@@ -1,5 +1,5 @@
 const CONFIG = {
-  WA_NUMBER: "6289526977840",
+  WA_NUMBER: "6289525953362",
   BRAND_NAME: "SPX Express Indonesia",
   BASE_URL: "https://spxexpressid.vercel.app",
   WA_DEFAULT_MESSAGE: "Halo saya butuh bantuan SPX Express",
